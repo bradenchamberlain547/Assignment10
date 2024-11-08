@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(20, 44, 50);
+        }
+        canvas {
+            border: 2px solid black;
+            background-color: rgb(33, 99, 126);
+        }
+        button {
+            position: absolute;
+            bottom: 40px;
+            font-size: 16px;
+            background-color: rgb(33, 99, 126);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="startCountdown()">Launch</button>
+    <canvas id="Canvas" width="800" height="600"></canvas>
+</body>
+</html>
